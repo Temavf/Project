@@ -266,12 +266,4 @@ ansible-playbook -i ansible/hosts ansible/database-recover-latest.yaml -e master
 ansible-playbook -i ansible/hosts ansible/switch-app-on-another-master.yaml -e master_ip=10.10.1.131
 ```
 
-## План развития
-
-### Рефакторинг
-
-Требуется провести большой рефакторинг в части:
-* дублирующий код;
-* фиксированная конфигурация;
-
 
